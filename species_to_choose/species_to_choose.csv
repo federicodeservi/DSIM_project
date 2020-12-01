@@ -1,0 +1,35 @@
+,taxonID,vernacularName,canonicalName,genericName,name,count
+0,2440886,horse,Equus caballus,Equus,horse,1645
+1,9531221,sheep,Ovis,Ovis,sheep,1420
+2,2440948,deer,Cervus,Cervus,deer,1344
+3,2441022,cow,Bos taurus,Bos,cow,1338
+4,5299,giraffe,Giraffidae,Giraffidae,giraffe,1202
+5,2437489,squirrel,Sciurus,Sciurus,squirrel,1200
+6,5723077,zebra,Diplodus cervinus hottentotus,Diplodus,zebra,1170
+7,9379,rabbit,Leporidae,Leporidae,rabbit,1088
+8,9614,antelope,Bovidae,Bovidae,antelope,1046
+9,9427,elephant,Elephantidae,Elephantidae,elephant,1038
+10,5219404,lion,Panthera leo,Panthera,lion,1019
+11,5310,seal,Phocidae,Phocidae,seal,988
+12,5314,dolphin,Delphinidae,Delphinidae,dolphin,946
+13,5219416,tiger,Panthera tigris,Panthera,tiger,877
+14,7444103,gorilla,Troglodytes gorilla,Troglodytes,gorilla,872
+15,2433750,otter,Lutra,Lutra,otter,758
+16,2441017,ox,Bos,Bos,ox,728
+17,2436437,chimpanzee,Pan,Pan,chimpanzee,728
+18,4969816,leopard,Felis pardus,Felis,leopard,720
+19,5302,pig,Suidae,Suidae,pig,713
+20,2440940,moose,Alces alces,Alces,moose,704
+21,9415,rhinoceros,Rhinocerotidae,Rhinocerotidae,rhinoceros,696
+22,2441247,hippopotamus,Hippopotamus amphibius,Hippopotamus,hippopotamus,684
+23,5219234,fox,Vulpes,Vulpes,fox,664
+24,2435246,bobcat,Lynx rufus,Lynx,bobcat,630
+25,2433592,raccoon,Procyon,Procyon,raccoon,512
+26,734,bat,Chiroptera,Chiroptera,bat,383
+27,2439223,rat,Rattus,Rattus,rat,310
+28,2433922,weasel,Mustela,Mustela,weasel,272
+29,2433626,walrus,Odobenus,Odobenus,walrus,215
+30,5493,beaver,Castoridae,Castoridae,beaver,193
+31,9679,skunk,Mephitidae,Mephitidae,skunk,188
+32,5510,mouse,Muridae,Muridae,mouse,185
+33,9469,mole,Talpidae,Talpidae,mole,100
