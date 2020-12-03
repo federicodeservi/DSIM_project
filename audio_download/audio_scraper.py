@@ -4,6 +4,7 @@ Audio mp3 scraper
 
 import urllib.request # download di mp3
 import pandas as pd
+from pydub import AudioSegment # convert audio
 import os
 
 def extract_url_name(url):
@@ -60,10 +61,31 @@ def download_mp3(df, classes, data_path):
    
       print(animal, "audios directory, SUCCESSFUL CREATED")
 
+def mp3_to_wav(datapath = 'data'):
+   '''
+   Convert mp3 files into wav
+   
+   '''
+   dirs = os.listdir(f"{datapath}/")
+   for directory in dirs:
+      # create directory_wav
+      if not os.path.exists(f"{datapath}/{directory}_wav"):
+         os.makedirs(f"{datapath}/{directory}_wav")
+      mp3_files = os.listdir(f"{datapath}/{directory}/")
+      for mp3 in mp3_files:
+         if mp3.endswith(".mp3"):
+            name = mp3.split(".")[0]
+            sound = AudioSegment.from_mp3(f"{datapath}/{directory}/{mp3}")
+            sound.export(f"{datapath}/{directory}_wav/{name}.wav", format = 'wav')
+            print(f"{datapath}/{directory}_wav/{name} CONVERTED")
+      print(f"{datapath}/{directory}_wav CONVERTED")
 '''
 main
 
 '''
+
+mp3_to_wav()
+
 if __name__ == "__main__":
    # set working directory
    os.chdir("C:/Users/fede9/Documents/GitHub/DSIM_project/audio_download")
