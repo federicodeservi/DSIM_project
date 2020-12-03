@@ -61,24 +61,25 @@ def download_mp3(df, classes, data_path):
    
       print(animal, "audios directory, SUCCESSFUL CREATED")
 
-def mp3_to_wav(datapath = 'data'):
+def mp3_to_wav(datapath = 'data', destination_path = 'data_wav'):
    '''
    Convert mp3 files into wav
    
    '''
+   
    dirs = os.listdir(f"{datapath}/")
    for directory in dirs:
       # create directory_wav
-      if not os.path.exists(f"{datapath}/{directory}_wav"):
-         os.makedirs(f"{datapath}/{directory}_wav")
+      if not os.path.exists(f"{destination_path}/{directory}"):
+         os.makedirs(f"{destination_path}/{directory}")
       mp3_files = os.listdir(f"{datapath}/{directory}/")
       for mp3 in mp3_files:
          if mp3.endswith(".mp3"):
             name = mp3.split(".")[0]
             sound = AudioSegment.from_mp3(f"{datapath}/{directory}/{mp3}")
-            sound.export(f"{datapath}/{directory}_wav/{name}.wav", format = 'wav')
+            sound.export(f"{destination_path}/{directory}/{name}.wav", format = 'wav')
             print(f"{datapath}/{directory}_wav/{name} CONVERTED")
-      print(f"{datapath}/{directory}_wav CONVERTED")
+      print(f"{destination_path}/{directory} CREATED")
 '''
 main
 
