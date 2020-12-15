@@ -1,5 +1,5 @@
 **/audio_download/data/
 **/audio_download/data_wav/
 **/audio_download/data_augm/
-**/retrieval/images_test/
+**/retrieval/images10_test/
 **.ipynb_checkpoints
