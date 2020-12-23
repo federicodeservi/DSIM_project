@@ -2,4 +2,5 @@
 **/audio_download/data_wav/
 **/audio_download/data_augm/
 **/retrieval/images10_test/
+**/monodimensionale/data_mel/
 **.ipynb_checkpoints
