@@ -2,6 +2,11 @@
 **/audio_download/data_wav/
 **/audio_download/data_augm/
 **/retrieval/images10_test/
+**/retrieval/features_resnet101.npy
+**/retrieval/images10_dipinti
+**/retrieval/images10_dipinti.zip
+**/retrieval/images_animals10_small
+**/retrieval/images_animals10_small.zip
 **/monodimensional/data_mel/
 **/bidimensional/bidim_weights.data-00000-of-00001
 **/monodimensional/monodim_weights.data-00000-of-00001
