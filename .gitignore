@@ -2,9 +2,8 @@
 **/audio_download/data_wav/
 **/audio_download/data_augm/
 **/retrieval/images10_test/
-**/monodimensionale/data_mel/
-**/bidimensionale/pesi-fede/
-**/monodimensionale/modello3/monodim_weights.data-00000-of-00001
-**/monodimensionale/modello2/monodim_weights.data-00000-of-00001
-**/monodimensionale/modello1/monodim_weights.data-00000-of-00001
+**/monodimensional/data_mel/
+**/bidimensional/bidim_weights.data-00000-of-00001
+**/monodimensional/monodim_weights.data-00000-of-00001
+**/archived_data/
 **.ipynb_checkpoints

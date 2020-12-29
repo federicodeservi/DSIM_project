@@ -1,0 +1,2 @@
+model_checkpoint_path: "bidim_weights"
+all_model_checkpoint_paths: "bidim_weights"
