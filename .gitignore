@@ -8,7 +8,7 @@
 **/retrieval/images_animals10_small
 **/retrieval/images_animals10_small.zip
 **/monodimensional/data_mel/
-**/bidimensional/bidim_weights.data-00000-of-00001
-**/monodimensional/monodim_weights.data-00000-of-00001
+**/bidimensional/fine-tuning/bidim_weights.data-00000-of-00001
+**/monodimensional/fine-tuning/monodim_weights.data-00000-of-00001
 **/archived_data/
 **.ipynb_checkpoints
