@@ -21,7 +21,10 @@ Github repository for Digital Signal & Image Recognition project.
     * **data**: contains the image dataset used ([Awa2](https://cvml.ist.ac.at/AwA2/))
     * **retrieval**: retrieval using a ResNet and a KDTree
 
-* **presentation**: Powerpoint presentation of the project 
+* **presentation**: Powerpoint presentation of the project
+
+* **demo**: contains the video of the Demo created for this project and available [here](https://github.com/federicodeservi/DSIM_demo) 
+
 
 
 ## **Authors**
