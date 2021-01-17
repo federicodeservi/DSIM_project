@@ -2,6 +2,9 @@
 
 Github repository for Digital Signal & Image Recognition project.
 
+The presentation for the project is available [here](presentation/presentation.pdf).
+The video of the demo is available [here]().
+
 ## **Folders**
 
 * **species_to_choose**: select which species will be used in the project
