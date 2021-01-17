@@ -3,7 +3,7 @@
 Github repository for Digital Signal & Image Recognition project.
 
 The presentation for the project is available [here](presentation/presentation_dsim.pdf).
-The video of the demo is available [here](https://youtu.be/N7RNdIjVPy4).
+The video of the demo is available [here](https://youtu.be/RKwl9WuHxr8).
 
 ## **Folders**
 
